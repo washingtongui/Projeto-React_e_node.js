@@ -67,3 +67,20 @@ form {
         font-weight: normal;
     }
 }
+
+.card button {
+    background-color: transparent;
+    /* Remove a cor do botão */
+    border: none;
+    cursor: pointer;
+    display: flex;
+    /* Garante alinhamento */
+    align-items: center;
+    padding: 0;
+}
+
+.card button img {
+    width: 50px;
+    /* Ajuste o tamanho da lixeira */
+    height: 50px;
+}
